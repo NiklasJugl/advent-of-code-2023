@@ -1,0 +1,8 @@
+.highlighted{
+  color: green;
+}
+
+.isSymbol{
+  color: red !important;
+  font-weight: bold;
+}

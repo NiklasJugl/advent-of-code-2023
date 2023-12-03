@@ -1,0 +1,16 @@
+<h1>Result Day3</h1>
+<p>Part 1: {{ result }}</p>
+<p>Part 2: {{ result2 }}</p>
+
+<table>
+  @for (row of text; track row[rowCounter]; let rowCounter = $index) {
+  <tr>
+    @for (element of row; track element[idy]; let idy = $index){
+    <td [class.highlighted]="checkNumber(rowCounter, idy, idy)" [class.isSymbol]="charIsSymbol(element)">
+      {{ element }}
+    </td>
+    }
+  </tr>
+
+  }
+</table>
