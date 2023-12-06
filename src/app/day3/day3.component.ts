@@ -1,6 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {input2} from "../day2/input2";
-import number = CSS.number;
 import {input3} from "./input3";
 
 @Component({

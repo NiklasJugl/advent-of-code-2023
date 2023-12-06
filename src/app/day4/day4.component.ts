@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {input2} from "../day2/input2";
 import {input4} from "./input4";
 
 @Component({
