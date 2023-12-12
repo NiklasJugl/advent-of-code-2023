@@ -7,6 +7,11 @@ import {Day5Component} from "./day5/day5.component";
 import {Day6Component} from "./day6/day6.component";
 import {Day8Component} from "./day8/day8.component";
 import {Day7Component} from "./day7/day7.component";
+import {Day10Component} from "./day10/day10.component";
+import {Day9Component} from "./day9/day9.component";
+import {Day11Component} from "./day11/day11.component";
+import {Day12Component} from "./day12/day12.component";
+import {Day13Component} from "./day13/day13.component";
 
 export const routes: Routes = [
   {
@@ -52,27 +57,27 @@ export const routes: Routes = [
   {
     path: 'day9',
     title: "Day 9",
-    component: Day2Component,
+    component: Day9Component,
   },
   {
     path: 'day10',
     title: "Day 10",
-    component: Day2Component,
+    component: Day10Component,
   },
   {
     path: 'day11',
     title: "Day 11",
-    component: Day2Component,
+    component: Day11Component,
   },
   {
     path: 'day12',
     title: "Day 12",
-    component: Day2Component,
+    component: Day12Component,
   },
   {
     path: 'day13',
     title: "Day 13",
-    component: Day2Component,
+    component: Day13Component,
   },
   {
     path: 'day14',

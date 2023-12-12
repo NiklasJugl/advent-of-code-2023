@@ -1,0 +1,17 @@
+<h1>Result Day11</h1>
+<p>Part 1: {{result}}</p>
+<p>Part 2: {{result2}}</p>
+
+
+<table>
+  @for (row of universe; track row[rowCounter]; let rowCounter = $index) {
+  <tr>
+    @for (element of row; track element[idy]; let idy = $index){
+  <td>
+    {{ element }}
+  </td>
+  }
+  </tr>
+
+  }
+</table>
